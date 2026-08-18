@@ -1,0 +1,8 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "api/stripe_webhook.py": {
+      "maxDuration": 300
+    }
+  }
+}

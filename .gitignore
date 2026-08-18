@@ -1,0 +1,28 @@
+# Secrets / env — NEVER commit
+.env
+.env.*
+*.env
+.env.local
+dispute.env
+!.env.example
+
+# Vercel
+.vercel
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.uv/
+uv.lock
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Local scratch / generated
+*.log
